@@ -1,0 +1,45 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 da7825076946e76791ea1ea87f95bf068c1678c9 Build.PL
+SHA1 04510dbb4983cefcb393f1a9680b7902086aff88 Changes
+SHA1 816b82f3e11dec3842dba2bdb373d946a08f70a4 MANIFEST
+SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
+SHA1 0bf5dccc6be1165e6f90a4ffc65ebf4ec1918782 META.yml
+SHA1 d6b58a0088d6549b14f29be406ef09403a266d43 Makefile.PL
+SHA1 645121670f5029b8925556631d328b5cb849d651 README
+SHA1 1c9ad9afe29b5edccede370973d0cbd205ebdcc2 lib/WWW/Google/Moderator.pm
+SHA1 7e613f5b8fbb7f806d657f68985914471de0eeb9 t/00-load.t
+SHA1 5ee7c7b69b78bbeda6f64894f52d2aba67b4de0c t/01-new.t
+SHA1 e32183e0a143af82673c35b80ed62706f92eaa56 t/02-get_series_detail.t
+SHA1 9884d5cbf131262a124f0563476581c57e0c047a t/03-get_topic_detail.t
+SHA1 4f44ab52a05a4c09483b678f5de66b65d0ec156b t/04-get_submission_detail.t
+SHA1 2bc69824c6c1fd9b55ed38da693297412afed80a t/05-get_topics.t
+SHA1 e1bf9555628fb621dbcfb638133073d64e448b13 t/06-get_series_submissions.t
+SHA1 e9462cc8aa660ef88b18e84446b7bd25da54cdd2 t/07-get_topic_submissions.t
+SHA1 2b8ffb7e4f399af95d092743846ac8d438f2c53e t/manifest.t
+SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (MingW32)
+
+iQEcBAEBAgAGBQJNzyC0AAoJENoXJXWo7C/pDW8H/Ak37kNiWJc8s3b2E2QqPHJ0
+b8XmSzxvwbLv3LPEv4sdGRMpbefTPAFMohAviUJrwFKqLJLh9OJ12JMEZs95dGoy
+a5OB9xMzvQL8gry71R4Syx9ot1lJSvmsya622vsebN49TSyC0FndKoRly88ZVnZh
+M1/sXxh1OhL5papyhjcse7G93ujAlqPzu4QeUQmzOGDc3CbRV1CacIwDduSKGUgs
+t2O6rvuX2MwfUTq8xeQNwU8qbin2qKlboTf065TLBu4eJKo2B7pdOWzYXu1TsTxr
+a7EcaJOmU1MmKbpR0KAdU1UJPobofeBhj2s2Z5VD7lQ6b4YnXxQym75NxjCKlqg=
+=MyEP
+-----END PGP SIGNATURE-----

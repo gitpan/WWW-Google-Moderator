@@ -1,0 +1,20 @@
+Build.PL
+Changes
+MANIFEST
+MANIFEST.SKIP
+SIGNATURE
+Makefile.PL
+README
+lib/WWW/Google/Moderator.pm
+t/00-load.t
+t/01-new.t
+t/02-get_series_detail.t
+t/03-get_topic_detail.t
+t/04-get_submission_detail.t
+t/05-get_topics.t
+t/06-get_series_submissions.t
+t/07-get_topic_submissions.t
+t/manifest.t
+t/pod.t
+META.yml
+SIGNATURE    Added here by Module::Build

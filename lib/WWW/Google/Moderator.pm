@@ -20,11 +20,11 @@ WWW::Google::Moderator - Interface to Google Moderator API.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 Readonly my $API_VERSION => 'v1';
 Readonly my $BASE_URL    => "https://www.googleapis.com/moderator/$API_VERSION";
 
@@ -80,11 +80,11 @@ The constructor expects your application API Key at the least, which you can get
     +-------------+----------------------------------------------------------------------------------------+
     | Parameter   | Meaning                                                                                |
     +-------------+----------------------------------------------------------------------------------------+
+    | api_key     | Your application API key. You should supply a valid API key with all requests. Get a   |
+    |             | key from the Google APIs console.                                                      |
     | alt         | Alternative data representation format. If you don't specify an alt parameter, the     |
     |             | Moderator server returns data in the JSON format. This is equivalent to alt=json. The  |
     |             | The Moderator API currently supports only the JSON data format.                        |
-    | api_key     | Your application API key. You should supply a valid API key with all requests. Get a   |
-    |             | key from the Google APIs console.                                                      |
     | prettyprint | Returns a response with indentations and line breaks. If prettyprint=true, the results |
     |             | returned by the server will be human readable (pretty printed).                        |
     +-------------+----------------------------------------------------------------------------------------+
@@ -503,8 +503,9 @@ L<http://search.cpan.org/dist/WWW-Google-Moderator/>
 
 Copyright 2011 Mohammad S Anwar.
 
-This  program  is  distributed  in  the hope that it will be useful, but WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+This  program  is  free  software; you can redistribute it and/or modify it under the terms of
+either:  the  GNU  General Public License as published by the Free Software Foundation; or the
+Artistic License.
 
 See http://dev.perl.org/licenses/ for more information.
 

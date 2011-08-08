@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.68.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,14 +14,14 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 da7825076946e76791ea1ea87f95bf068c1678c9 Build.PL
-SHA1 1b015ba05641562a5158145d6630a665ebceb67d Changes
+SHA1 40137bc881d6dde461555faf4465b882952f4930 Build.PL
+SHA1 f44b0da202101a14be34780200c7e1bb4d874aa8 Changes
 SHA1 816b82f3e11dec3842dba2bdb373d946a08f70a4 MANIFEST
 SHA1 7d20e4e840781030202bb045d5ab81b3fd1b68b0 MANIFEST.SKIP
-SHA1 85b87618b20fe4c552a164388d9d8e1c11460a49 META.yml
-SHA1 d6b58a0088d6549b14f29be406ef09403a266d43 Makefile.PL
+SHA1 7748a044edef86772930b669a90d603eb94b8a77 META.yml
+SHA1 0ca072067b11815355c0fc1f728e8a6fdadabdf7 Makefile.PL
 SHA1 645121670f5029b8925556631d328b5cb849d651 README
-SHA1 fd8b34f2d588e40e68b1251cd27ce4af45670e51 lib/WWW/Google/Moderator.pm
+SHA1 854e721a1320bfb2f9889a2fdf47f74cbb170e0b lib/WWW/Google/Moderator.pm
 SHA1 7e613f5b8fbb7f806d657f68985914471de0eeb9 t/00-load.t
 SHA1 5ee7c7b69b78bbeda6f64894f52d2aba67b4de0c t/01-new.t
 SHA1 e32183e0a143af82673c35b80ed62706f92eaa56 t/02-get_series_detail.t
@@ -35,11 +35,11 @@ SHA1 0765c9ff0cc4319f415bb08d0053b7717a8284a2 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.14 (MingW32)
 
-iQEcBAEBAgAGBQJN1BgiAAoJEPYcXBXhRYOh2PgIAKmerPufevLMP5AwrsxkwkXv
-zs2HfmBZcZpgRTKGOtqw8MKl9R6NkeV47ZCpkstMOAlyukPhGkK+OIV1+XhbSsLj
-B6hs7pGjVzP6y4Y+/c5mcxmhhHDVvLv4hoaW7qQ2c4iTPFyqhd8Zd2TcD1A6t+LR
-es1V0ExRPoo9sBxv6ahWT9+j0xw1ldWlwoRksBqURCMIj5UqPo63zbt6ud71QM5N
-z3XkVILCLfGAxQ63gOwiyMHrIsJJOeK/cbpNoQFlfMxuX4Mbh0x2SQ5o9mRFy4kh
-evTxNpY0E/uXlmTm1bnvBuVfueENlgNwjaommo+CANnMDLenS2es+B68qaav9wo=
-=SLP4
+iQEcBAEBAgAGBQJOP84+AAoJEPYcXBXhRYOhwHQIAKlaaH1dj3aWaDSsnZSCnBu0
+uPRPDT4vzOz2uXj4S2PJoHVfbJ3f2SSK0h/eJWIUwUO14nLjGyXYFC5QLMuSLpuS
+tGRhJ6jjA2eefqYeCNoroT1Wnie1qwb1Okbl9zXQYUV1l3zrDkufRimv4UVZcJg6
+GYXEi+ATplzbNW8JiutsP6VwG8HTiva7KkoknyBVW5tZGRATtOjU/YeI/PnMo9IO
+pVfhcR5N3tWPvdRZGwCQSYErznFmxe9DqOYafdo4XIUwCidWxV1+5VA0/5f55B7d
+6WcfvtfET8upuEPbEhY1aC/lkW5dr8viW7QG0/XvF47v8Yn/qzpvixe3/6kw3fY=
+=RT71
 -----END PGP SIGNATURE-----
